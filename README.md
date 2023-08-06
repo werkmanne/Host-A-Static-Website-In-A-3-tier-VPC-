@@ -59,7 +59,7 @@ This readme file provides an overview of the project hosted on an Amazon EC2 ins
 <p>Set up a target group for the ALB and associate it with the EC2 instances.</p>
 
 <h3>Step 3: Set Up Autoscaling Group</h3>
-<p>Create an Autoscaling Launch Template, specifying the AMI, instance type, security groups, and other configurations.</p>
+<p>Create an Autoscaling Launch Template, specifying the AMI, instance type, security groups, and add the Bash Script to User Data</p>
 <p>Configure the ALB to listen on HTTP (port 80) and HTTPS (port 443). Use the SSL/TLS certificate from ACM for HTTPS configuration.</p>
 <p>Configure the Autoscaling Group to use the created launch configuration and the target group associated with the ALB.</p>
 <p>Set up autoscaling policies based on metrics such as CPU utilization or request count to automatically adjust the number of EC2 instances.</p>
