@@ -1,5 +1,7 @@
 <h1># Host-A-Static-Website-In-A-3-tier-VPC-</h1> 
 
+<img src='Host-A-Static-Website-In-A-3-tier-VPC Reference Architecture.png' alt='Host-A-Static-Website-In-A-3-tier-VPC Reference Architecture'>
+
 <h2>Introduction</h2>
 
 This readme file provides an overview of the project hosted on an Amazon EC2 instance within a 3-tier VPC. The project is a website that consists of HTML files, CSS stylesheets, and JavaScript files. This document will guide you through the setup, deployment, and usage of the project.
